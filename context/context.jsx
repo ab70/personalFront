@@ -9,6 +9,7 @@ export const LanguageProvider = ({ children }) => {
     return (
       <LanguageContext.Provider value={[locale, setLocale]}>
         {children}
+        
       </LanguageContext.Provider>
     );
 };
